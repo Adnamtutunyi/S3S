@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Sneakers - Salto del Guairá, Paraguay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .sneakers {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .sneaker {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .sneaker img {
+            width: 100%;
+            height: auto;
+        }
+        .sneaker-details {
+            padding: 15px;
+        }
+        .sneaker-details h2 {
+            font-size: 20px;
+            margin: 0 0 10px;
+        }
+        .sneaker-details p {
+            margin: 0 0 10px;
+            color: #555;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .payment-methods, .location {
+            margin: 20px 0;
+        }
+        .payment-methods img, .location img {
+            width: 50px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Sneakers</h1>
+        <p>Los mejores sneakers modernos y con diseños únicos de grafitis.</p>
+    </header>
+    <div class="container">
+        <section class="sneakers">
+            <div class="sneaker">
+                <img src="sneaker1.jpg" alt="Sneaker 1">
+                <div class="sneaker-details">
+                    <h2>Sneaker Moderno 1</h2>
+                    <p>Descripción del Sneaker 1. Diseño grafiti, colores vibrantes.</p>
+                </div>
+            </div>
+            <div class="sneaker">
+                <img src="sneaker2.jpg" alt="Sneaker 2">
+                <div class="sneaker-details">
+                    <h2>Sneaker Moderno 2</h2>
+                    <p>Descripción del Sneaker 2. Diseño exclusivo y moderno.</p>
+                </div>
+            </div>
+            <div class="sneaker">
+                <img src="sneaker3.jpg" alt="Sneaker 3">
+                <div class="sneaker-details">
+                    <h2>Sneaker Moderno 3</h2>
+                    <p>Descripción del Sneaker 3. Estilo único y cómodo.</p>
+                </div>
+            </div>
+        </section>
+        <section class="payment-methods">
+            <h2>Formas de Pago</h2>
+            <p>Aceptamos:</p>
+            <img src="credit-card-icon.png" alt="Tarjeta de Crédito">
+            <img src="cash-icon.png" alt="Efectivo">
+        </section>
+        <section class="location">
+            <h2>Nuestra Ubicación</h2>
+            <p>Salto del Guairá, Paraguay</p>
+            <img src="location-icon.png" alt="Ubicación">
+        </section>
+    </div>
+    <footer class="footer">
+        <p>Aspiramos a ser el mejor sitio web de compras de sneakers, facilitando y brindando comodidad con entrega a la puerta de tu casa.</p>
+    </footer>
+</body>
+</html>
